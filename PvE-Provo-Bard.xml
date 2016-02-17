@@ -1,0 +1,171 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">True</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x2</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">False</data>
+ <data name="ForceResolution">True</data>
+ <data name="GameWindowWidth">0x5a0</data>
+ <data name="GameWindowHeight">0x384</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">True</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">True</data>
+ <data name="FilterSeason">True</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">True</data>
+ <data name="FilterRepeatedMessages">True</data>
+ <data name="FilterOthersSpeechColor">True</data>
+ <data name="FilterSnoopingMessages">True</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">True</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">True</data>
+ <data name="SmartTarget">0x0</data>
+ <data name="SmartTargetRange">True</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">True</data>
+ <data name="BlockInvalidHeal">True</data>
+ <data name="ActionDelay">0x12c</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x0</data>
+ <data name="MountSerial">0xffffffff</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">False</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">False</data>
+ <data name="AutoBandageStart">False</data>
+ <data name="AutoBandageStartValue">0x5f</data>
+ <data name="AutoBandageDelay">0x9c4</data>
+ <data name="AutoBandageFormula">False</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">True</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x0</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">True</data>
+ <data name="StateHighlightMode">0x1</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">False</data>
+ <data name="FriendsListOnly">False</data>
+ <data name="FriendsParty">False</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">$name $statusbar - $hits/$mana/$stam $bandagetimer %bp %bm %mr %sa %ss %gs %gr %ns %aid %gold</data>
+ <data name="WarnCounters">False</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">True</data>
+ <data name="FilterFameMessages">True</data>
+ <data name="PreventDismount">True</data>
+ <data name="PreventAttackFriends">False</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">False</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <counters>
+  <counter color="0x0" graphic="0xf8d" image="True" format="ss" name="Spiders' Silk" enabled="True"/>
+  <counter color="0x0" graphic="0xf86" image="True" format="mr" name="Mandrake Root" enabled="True"/>
+  <counter color="0x0" graphic="0xf88" image="True" format="ns" name="Nightshade" enabled="True"/>
+  <counter color="0x0" graphic="0xf7b" image="True" format="bm" name="Blood Moss" enabled="True"/>
+  <counter color="0x0" graphic="0xf84" image="True" format="gr" name="Garlic" enabled="True"/>
+  <counter color="0x0" graphic="0xf7a" image="True" format="bp" name="Black Pearl" enabled="True"/>
+  <counter color="0x0" graphic="0xf85" image="True" format="gs" name="Ginseng" enabled="True"/>
+  <counter color="0x0" graphic="0xf8c" image="True" format="sa" name="Sulfurous Ash" enabled="True"/>
+  <counter color="0x0" graphic="0xeed" image="True" format="gold" name="gold coin" enabled="True"/>
+  <counter color="0x0" graphic="0xe21" image="True" format="aid" name="clean bandage" enabled="True"/>
+ </counters>
+ <scavenger enabled="True">
+  <scavenge color="0x0" graphic="0xf86" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf8d" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf8c" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf88" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf7b" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf84" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf7a" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf85" enabled="True"/>
+  <scavenge color="0x0" graphic="0xeed" enabled="True"/>
+  <scavenge color="0x0" graphic="0xf26" enabled="True"/>
+ </scavenger>
+ <autosearchexemptions/>
+ <objects/>
+ <hotkeys>
+  <hotkey pass="False" key="0x42" param="Bank Buy Guards" action="macro.play"/>
+  <hotkey pass="False" key="0x56" param="Sell" action="macro.play"/>
+  <hotkey pass="True" key="0xd" action="hotkeys"/>
+  <hotkey pass="False" key="0x4c0" action="main.resync"/>
+  <hotkey pass="False" key="0xbb" action="actions.shownames.all"/>
+  <hotkey pass="False" key="0x4c" action="agents.autoloot"/>
+  <hotkey pass="False" key="0x53" action="targeting.target.self"/>
+  <hotkey pass="False" key="0x41" action="targeting.target.last"/>
+  <hotkey pass="False" key="0x44" action="actions.use.lastobject"/>
+  <hotkey pass="False" key="0x46" action="targeting.get.enemy.next.non-friendly.any"/>
+  <hotkey pass="False" key="0x431" action="combat.consume.potions.cure"/>
+  <hotkey pass="False" key="0x451" action="combat.consume.potions.heal"/>
+  <hotkey pass="False" key="0x52" action="spells.magery.recall"/>
+  <hotkey pass="False" key="0x4d" action="spells.magery.mark"/>
+  <hotkey pass="False" key="0x54" action="skills.animaltaming"/>
+  <hotkey pass="False" key="0x61" action="actions.creatures.follow"/>
+  <hotkey pass="False" key="0x62" action="actions.creatures.guard"/>
+  <hotkey pass="False" key="0x63" action="actions.creatures.kill"/>
+  <hotkey pass="False" key="0x64" action="actions.creatures.stay"/>
+  <hotkey pass="False" key="0x65" action="actions.creatures.stop"/>
+  <hotkey pass="False" key="0x451" action="spells.magery.heal"/>
+  <hotkey pass="False" key="0x51" action="spells.magery.greaterheal"/>
+  <hotkey pass="False" key="0x31" action="spells.magery.fireball"/>
+  <hotkey pass="False" key="0x32" action="spells.magery.lightning"/>
+  <hotkey pass="False" key="0x33" action="spells.magery.energybolt"/>
+  <hotkey pass="False" key="0x34" action="spells.magery.explosion"/>
+  <hotkey pass="False" key="0x5a" action="spells.magery.invisibility"/>
+  <hotkey pass="False" key="0x58" action="spells.magery.magicreflection"/>
+  <hotkey pass="False" key="0x45" action="spells.magery.teleport"/>
+  <hotkey pass="False" key="0x57" action="spells.magery.cure"/>
+  <hotkey pass="False" key="0x252" action="spells.magery.gatetravel"/>
+  <hotkey pass="False" key="0x35" action="spells.magery.flamestrike"/>
+  <hotkey pass="False" key="0x47" action="spells.magery.paralyze"/>
+  <hotkey pass="False" key="0x43" action="skills.provocation"/>
+ </hotkeys>
+ <macros>
+  <macro interrupt="True" loop="False" name="Bank Buy Guards">msg 'Vendor Buy Bank Guards Recsu Recdu';</macro>
+  <macro interrupt="True" loop="False" name="Sell">msg 'Vendor Sell';</macro>
+  <macro interrupt="True" loop="False" name="Sort Loot">if @listexists 'ItemTypes';@clearlist 'ItemTypes';else;@createlist 'ItemTypes';endif;//Shields;@pushlist 'ItemTypes' 0x1b72 //BronzeShields;@pushlist 'ItemTypes' 0x1b73 //Buckler;@pushlist 'ItemTypes' 0x1b7b //MetalShield;@pushlist 'ItemTypes' 0x1b74 //Metal Kite Shield;@pushlist 'ItemTypes' 0x1b79 //Tear Kite Shield;@pushlist 'ItemTypes' 0x1b7a //WoodenShield;@pushlist 'ItemTypes' 0x1b76 //HeaterShield;//Platemail;@pushlist 'ItemTypes' 0x1408 //Close Helmet;@pushlist 'ItemTypes' 0x1410 //Platemail Arms;@pushlist 'ItemTypes' 0x1411 //Platemail Legs;@pushlist 'ItemTypes' 0x1412 //Plate Helm;@pushlist 'ItemTypes' 0x1413 //Plate Gorget;@pushlist 'ItemTypes' 0x1414 //Platemail Gloves;@pushlist 'ItemTypes' 0x1415 //Plate Chest;@pushlist 'ItemTypes' 0x140a //Helmet;@pushlist 'ItemTypes' 0x140c //Bascinet;@pushlist 'ItemTypes' 0x140e //Norse Helm;//Chainmail;@pushlist 'ItemTypes' 0x13bb //Chainmail Coif;@pushlist 'ItemTypes' 0x13be //Chainmail Leggins;@pushlist 'ItemTypes' 0x13bf //Chainmail Tunic;//Ringmail;@pushlist 'ItemTypes' 0x13ee //Ringmail Sleeves;@pushlist 'ItemTypes' 0x13eb //Ringmail Gloves;@pushlist 'ItemTypes' 0x13ec //Ringmail Tunic;@pushlist 'ItemTypes' 0x13f0 //Ringmail Leggins;//Studded;@pushlist 'ItemTypes' 0x13da //Studded Leggings;@pushlist 'ItemTypes' 0x13db //Studded Tunic;@pushlist 'ItemTypes' 0x13d5 //Studded Gloves;@pushlist 'ItemTypes' 0x13d6 //Studded Gorget;@pushlist 'ItemTypes' 0x13dc //Studded Sleeves;//Leather;@pushlist 'ItemTypes' 0x13c6 //Leather Gloves;@pushlist 'ItemTypes' 0x13cd //Leather Sleeves;@pushlist 'ItemTypes' 0x13cc //Leather Tunic;@pushlist 'ItemTypes' 0x13cb //Leather Pants;@pushlist 'ItemTypes' 0x13c7 //Leather Gorget;@pushlist 'ItemTypes' 0x1db9 //Leather Cap;//Female Armor;@pushlist 'ItemTypes' 0x1c04 //Female Plate;@pushlist 'ItemTypes' 0x1c0c //Female Studded Bustier;@pushlist 'ItemTypes' 0x1c02 //Female Studded Armor;@pushlist 'ItemTypes' 0x1c00 //Female Leather Shorts;@pushlist 'ItemTypes' 0x1c08 //Female Leather Skirt;@pushlist 'ItemTypes' 0x1c06 //Female Leather Armor;@pushlist 'ItemTypes' 0x1c0a //Female Leather Bustier;//Fencing;@pushlist 'ItemTypes' 0xf62  //Spear;@pushlist 'ItemTypes' 0x1403 //Short Spear;@pushlist 'ItemTypes' 0xe87  //Pitchfork;@pushlist 'ItemTypes' 0x1405 //Warfork;@pushlist 'ItemTypes' 0x1401 //Kryss;@pushlist 'ItemTypes' 0xf52  //Dagger;//Macing;@pushlist 'ItemTypes' 0x13b0 //War axe;@pushlist 'ItemTypes' 0xdf0  //Black Staff;@pushlist 'ItemTypes' 0x1439 //War Hammer;@pushlist 'ItemTypes' 0x1407 //War Mace;@pushlist 'ItemTypes' 0xe89  //Quarter Staff;@pushlist 'ItemTypes' 0x143d //Hammer Pick;@pushlist 'ItemTypes' 0x13b4 //Club;@pushlist 'ItemTypes' 0xe81  //Shepherds Crook;@pushlist 'ItemTypes' 0x13f8 //Gnarled Staff;@pushlist 'ItemTypes' 0xf5c  //Mace;@pushlist 'ItemTypes' 0x143b //Maul;//Swords;@pushlist 'ItemTypes' 0x13b9 //Viking Sword;@pushlist 'ItemTypes' 0xf61  //Longsword;@pushlist 'ItemTypes' 0x1441 //Cutlass;@pushlist 'ItemTypes' 0x13b6 //Scimitar;@pushlist 'ItemTypes' 0xec4  //Skinning Knife;@pushlist 'ItemTypes' 0x13f6 //Butcher Knife;@pushlist 'ItemTypes' 0xf5e  //Broadsword;@pushlist 'ItemTypes' 0x13ff //Katana;@pushlist 'ItemTypes' 0xec3  //Cleaver;//Axes;@pushlist 'ItemTypes' 0xf43 //Hatchet;@pushlist 'ItemTypes' 0xf45 //Executioner's Axe;@pushlist 'ItemTypes' 0xf4d //Bardiche;@pushlist 'ItemTypes' 0xf4b  //Double Axe;@pushlist 'ItemTypes' 0x143e //Halberd;@pushlist 'ItemTypes' 0x13fb //Large Battle Axe;@pushlist 'ItemTypes' 0x1443 //Two Handed Axe;@pushlist 'ItemTypes' 0xf47  //Battle Axe;@pushlist 'ItemTypes' 0xf49  //Axe;@pushlist 'ItemTypes' 0xe85  //Pickaxe;@pushlist 'ItemTypes' 0xe86  //Pickaxe;//Bows;@pushlist 'ItemTypes' 0x13fd //HeavyXbow;@pushlist 'ItemTypes' 0xf50  //Xbow;@pushlist 'ItemTypes' 0x13b2 //Bow;//Wands;@pushlist 'ItemTypes' 0xdf5;@pushlist 'ItemTypes' 0xdf4;@pushlist 'ItemTypes' 0xdf3;@pushlist 'ItemTypes' 0xdf2;//Treasure Maps;@pushlist 'ItemTypes' 0x14ec;if @listexists 'ItemProperties';@clearlist 'ItemProperties';else;@createlist 'ItemProperties';endif;@pushlist 'ItemProperties' 'Fortification';@pushlist 'ItemProperties' 'Invulnerability';@pushlist 'ItemProperties' 'Power';@pushlist 'ItemProperties' 'Vanquishing';@pushlist 'ItemProperties' 'Slayer';@pushlist 'ItemProperties' 'silver';@pushlist 'ItemProperties' 'Heal';@pushlist 'ItemProperties' 'Lightning';@pushlist 'ItemProperties' 'map';@unsetalias 'keep';promptalias 'keep';@unsetalias 'sell';promptalias 'sell';@unsetalias 'unsorted';promptalias 'unsorted';useskill 'Item Identification';waitfortarget 1000;target! 'unsorted';pause 500;for 0 to 'ItemTypes';while @findtype ItemTypes[] 'any' 'unsorted';@clearjournal;pause 200;clickobject! 'found';pause 500;for 0 to 'ItemProperties';if @injournal ItemProperties[];headmsg ItemProperties[];moveitem! 'found' 'keep';pause 1000;break;endif;pause 100;endfor;if @findobject 'found' 'any' 'unsorted';moveitem! 'found' 'sell';pause 1000;endif;endwhile;endfor;</macro>
+  <macro interrupt="True" loop="False" name="Bandaid">usetype 0xe21;</macro>
+ </macros>
+ <autoloot>
+  <enabled>False</enabled>
+  <container>0x40015a22</container>
+  <guards>True</guards>
+ </autoloot>
+ <spellgrid/>
+ <organizer>
+  <group target="0x43d3807c" complete="True" stack="True" source="0x40618a61" loop="False" name="Reg Bag">
+   <item graphic="0xf86" amount="0x1e"/>
+   <item graphic="0xf7b" amount="0x1e"/>
+   <item graphic="0xf7a" amount="0x1e"/>
+   <item graphic="0xf88" amount="0x1e"/>
+   <item graphic="0xf84" amount="0x1e"/>
+   <item graphic="0xf8d" amount="0x1e"/>
+   <item graphic="0xf8c" amount="0x1e"/>
+   <item graphic="0xf85" amount="0x1e"/>
+  </group>
+ </organizer>
+ <vendors>
+  <buystate enabled="False" list=""/>
+  <sellstate enabled="False" list=""/>
+ </vendors>
+</profile>
